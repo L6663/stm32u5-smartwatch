@@ -1,0 +1,10 @@
+STM32U5 SmartWatch repository verification
+Root: /mnt/data/stm32u5-smartwatch-git-ready
+Files: 618
+Source size: 30.76 MiB
+Keil FilePath references: 297
+Missing Keil references: 0
+Forbidden artifacts: 0
+Files >= 100 MiB: 0
+
+PASS

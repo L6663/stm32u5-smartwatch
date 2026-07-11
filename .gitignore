@@ -1,0 +1,51 @@
+# Keil build output
+MDK-ARM/STM32U5_LVGL_Inteligentlight/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.build_log.htm
+MDK-ARM/*.dep
+MDK-ARM/*.crf
+MDK-ARM/*.d
+MDK-ARM/*.o
+MDK-ARM/*.obj
+MDK-ARM/*.axf
+MDK-ARM/*.hex
+MDK-ARM/*.bin
+MDK-ARM/*.map
+MDK-ARM/*.lst
+MDK-ARM/*.lnp
+MDK-ARM/*.htm
+MDK-ARM/*.sct
+MDK-ARM/build_rebuild.log
+
+# Generic embedded build output
+**/Debug/
+**/Release/
+**/build/
+**/Build/
+*.elf
+*.out
+
+# CubeMX / editor local files
+.mxproject
+*.bak
+*.tmp
+*.user
+*.suo
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local archives and temporary scripts
+rmtmp.bat
+*.zip
+*.7z
+*.rar
