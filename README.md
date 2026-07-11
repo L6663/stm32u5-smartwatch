@@ -57,7 +57,7 @@
 - [功能完成度](docs/FEATURE_STATUS.md)
 - [V3 审查报告](docs/PROJECT_AUDIT_V3.md)
 - [后续路线](docs/ROADMAP.md)
-- [上传 GitHub](docs/GITHUB_UPLOAD.md)
+
 
 ## 上传前验证
 
@@ -72,6 +72,4 @@ python scripts/verify_repo.py
 - 不包含单文件超过 GitHub 100 MB 限制的内容；
 - 保留 `.ioc`、`.uvprojx`、驱动、RTOS、LVGL、UI 和业务源码。
 
-## 构建边界
 
-本版本完成了静态审查和主机端 Clang C11 语法检查。由于交付环境没有 Keil ARM Compiler 6 和 STM32U575 开发板，仍需在本地完成一次 Keil 全量 Rebuild、烧录和目标板回归。
