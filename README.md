@@ -154,15 +154,6 @@ stm32u5-smartwatch/
 ```bash
 python scripts/verify_repo.py
 ```
-
-当前包验证目标：
-
-- Keil 工程引用无缺失；
-- 不包含 Keil 构建输出；
-- 不包含单文件超过 GitHub 100 MB 限制的内容；
-- 保留 `.ioc`、`.uvprojx`、驱动、RTOS、LVGL、UI 和业务源码。
-
-
 =======
 - IMU 计步与姿态识别
 - 电池电量采集
